@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "coverage": "open coverage/lcov-report/index.html",
     "build": "tsc && tsc-alias",
     "dev": "nodemon src/server.ts",
     "start": "npm run migrate:deploy && node dist/server.js",
